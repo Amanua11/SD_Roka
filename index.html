@@ -11,7 +11,7 @@
     <meta property="og:type" content="website">
     <title>Roka Office and Household Furniture Manufacturing | Heritage Woodworking in Addis Ababa</title>
     
-    <!-- Favicon - Acacia Tree SVG -->
+    <!-- Favicon - Brown Acacia Tree SVG -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌳</text></svg>">
     <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌳</text></svg>">
     
@@ -136,24 +136,6 @@
 
         .nav-links a:hover::after {
             width: 100%;
-        }
-
-        .nav-cta {
-            background: var(--primary);
-            color: var(--cream) !important;
-            padding: 12px 24px;
-            border-radius: 50px;
-            transition: all 0.3s var(--transition);
-        }
-
-        .nav-cta:hover {
-            background: var(--accent);
-            color: var(--dark) !important;
-            transform: translateY(-2px);
-        }
-
-        .nav-cta::after {
-            display: none;
         }
 
         .menu-toggle {
@@ -659,140 +641,6 @@
             font-size: 0.95rem;
         }
 
-        /* CONTACT */
-        .contact {
-            background: var(--primary);
-            color: var(--cream);
-        }
-
-        .contact .section-header h2 {
-            color: var(--cream);
-        }
-
-        .contact .section-header p {
-            color: rgba(250, 246, 240, 0.8);
-        }
-
-        .contact-grid {
-            display: grid;
-            grid-template-columns: 1fr 1.2fr;
-            gap: 60px;
-        }
-
-        .contact-info h3 {
-            font-size: 1.8rem;
-            margin-bottom: 24px;
-            color: var(--accent);
-        }
-
-        .contact-info p {
-            margin-bottom: 32px;
-            color: rgba(250, 246, 240, 0.85);
-        }
-
-        .contact-item {
-            display: flex;
-            gap: 16px;
-            margin-bottom: 24px;
-            align-items: flex-start;
-        }
-
-        .contact-item-icon {
-            width: 44px;
-            height: 44px;
-            background: rgba(201, 169, 97, 0.15);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-            color: var(--accent);
-            font-size: 1.2rem;
-        }
-
-        .contact-item-text strong {
-            display: block;
-            color: var(--cream);
-            margin-bottom: 4px;
-        }
-
-        .contact-item-text span,
-        .contact-item-text a {
-            color: rgba(250, 246, 240, 0.75);
-            font-size: 0.95rem;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .contact-item-text a:hover {
-            color: var(--accent);
-        }
-
-        .contact-form {
-            background: rgba(250, 246, 240, 0.05);
-            padding: 40px;
-            border-radius: 20px;
-            border: 1px solid rgba(201, 169, 97, 0.2);
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 8px;
-            font-size: 0.9rem;
-            color: var(--cream);
-            font-weight: 500;
-        }
-
-        .form-group input,
-        .form-group textarea,
-        .form-group select {
-            width: 100%;
-            padding: 14px 18px;
-            background: rgba(250, 246, 240, 0.08);
-            border: 1px solid rgba(201, 169, 97, 0.3);
-            border-radius: 10px;
-            color: var(--cream);
-            font-family: inherit;
-            font-size: 0.95rem;
-            transition: all 0.3s;
-        }
-
-        .form-group input:focus,
-        .form-group textarea:focus,
-        .form-group select:focus {
-            outline: none;
-            border-color: var(--accent);
-            background: rgba(250, 246, 240, 0.12);
-        }
-
-        .form-group textarea {
-            resize: vertical;
-            min-height: 120px;
-        }
-
-        .contact-form button {
-            width: 100%;
-            background: var(--accent);
-            color: var(--dark);
-            padding: 16px;
-            border: none;
-            border-radius: 50px;
-            font-weight: 600;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: all 0.3s var(--transition);
-        }
-
-        .contact-form button:hover {
-            background: var(--cream);
-            transform: translateY(-2px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-        }
-
         /* FOOTER */
         footer {
             background: var(--dark);
@@ -826,8 +674,7 @@
         /* RESPONSIVE */
         @media (max-width: 968px) {
             .hero-content,
-            .about-grid,
-            .contact-grid {
+            .about-grid {
                 grid-template-columns: 1fr;
                 gap: 50px;
             }
@@ -893,10 +740,6 @@
                 gap: 20px;
             }
 
-            .contact-form {
-                padding: 28px 24px;
-            }
-
             .gallery-grid {
                 grid-template-columns: 1fr;
                 grid-auto-rows: 260px;
@@ -925,7 +768,6 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#process">Process</a></li>
-                    <li><a href="#contact" class="nav-cta">Get Quote</a></li>
                 </ul>
                 <button class="menu-toggle" id="menuToggle" aria-label="Menu">
                     <span></span>
@@ -946,7 +788,7 @@
                     <p>From hand-selected Ethiopian hardwoods to timeless designs — we transform raw timber into furniture, doors, and interiors that tell a story for generations.</p>
                     <div class="hero-buttons">
                         <a href="#services" class="btn btn-primary">Explore Our Work →</a>
-                        <a href="#contact" class="btn btn-secondary">Request a Quote</a>
+                        <a href="tel:+251911221554" class="btn btn-secondary">Call Us Now</a>
                     </div>
                 </div>
                 <div class="hero-image">
@@ -1055,53 +897,53 @@
         </div>
     </section>
 
-   <!-- GALLERY -->
-<section class="gallery" id="gallery">
-    <div class="container">
-        <div class="section-header reveal">
-            <span class="section-eyebrow">Our Portfolio</span>
-            <h2>Recent Projects</h2>
-            <p>A selection of work from our workshop — each piece crafted with intention and care.</p>
+    <!-- GALLERY -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">Our Portfolio</span>
+                <h2>Recent Projects</h2>
+                <p>A selection of work from our workshop — each piece crafted with intention and care.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?w=800&q=80" alt="Traditional wooden dining table">
+                    <div class="gallery-overlay">
+                        <span>Residential</span>
+                        <h4>Traditional Mesob Table</h4>
+                    </div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80" alt="Modern executive office suite">
+                    <div class="gallery-overlay">
+                        <span>Commercial</span>
+                        <h4>Executive Office Suite</h4>
+                    </div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80" alt="Modern kitchen with custom cabinets">
+                    <div class="gallery-overlay">
+                        <span>Kitchen</span>
+                        <h4>Modern Kitchen Fit-Out</h4>
+                    </div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Hand-carved wooden entrance door">
+                    <div class="gallery-overlay">
+                        <span>Architectural</span>
+                        <h4>Hand-Carved Entrance Door</h4>
+                    </div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80" alt="Walnut bedroom furniture set">
+                    <div class="gallery-overlay">
+                        <span>Bedroom</span>
+                        <h4>Walnut Bedroom Set</h4>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="gallery-grid">
-            <div class="gallery-item reveal">
-                <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?w=800&q=80" alt="Traditional wooden dining table">
-                <div class="gallery-overlay">
-                    <span>Residential</span>
-                    <h4>Traditional Mesob Table</h4>
-                </div>
-            </div>
-            <div class="gallery-item reveal">
-                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80" alt="Modern executive office suite">
-                <div class="gallery-overlay">
-                    <span>Commercial</span>
-                    <h4>Executive Office Suite</h4>
-                </div>
-            </div>
-            <div class="gallery-item reveal">
-                <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80" alt="Modern kitchen with custom cabinets">
-                <div class="gallery-overlay">
-                    <span>Kitchen</span>
-                    <h4>Modern Kitchen Fit-Out</h4>
-                </div>
-            </div>
-            <div class="gallery-item reveal">
-                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Hand-carved wooden entrance door">
-                <div class="gallery-overlay">
-                    <span>Architectural</span>
-                    <h4>Hand-Carved Entrance Door</h4>
-                </div>
-            </div>
-            <div class="gallery-item reveal">
-                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80" alt="Walnut bedroom furniture set">
-                <div class="gallery-overlay">
-                    <span>Bedroom</span>
-                    <h4>Walnut Bedroom Set</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
     <!-- PROCESS -->
     <section class="process" id="process">
@@ -1136,74 +978,12 @@
         </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-header reveal">
-                <span class="section-eyebrow">Get In Touch</span>
-                <h2>Let's Build Something Beautiful</h2>
-                <p>Ready to start your project? Reach out — we'd love to hear from you.</p>
-            </div>
-            <div class="contact-grid">
-                <div class="contact-info reveal">
-                    <h3>Visit Our Workshop</h3>
-                    <p>Come see our craftsmanship in person. Walk through our workshop, meet our team, and discuss your project over traditional Ethiopian coffee.</p>
-                    
-                    <div class="contact-item">
-                        <div class="contact-item-icon">📍</div>
-                        <div class="contact-item-text">
-                            <strong>Workshop Address</strong>
-                            <span>Bole Sub-City, Addis Ababa, Ethiopia</span>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-item-icon">📞</div>
-                        <div class="contact-item-text">
-                            <strong>Phone</strong>
-                            <a href="tel:+251911221554">+251 911 221 554</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-item-icon">🕐</div>
-                        <div class="contact-item-text">
-                            <strong>Working Hours</strong>
-                            <span>Mon – Sat: 8:00 AM – 6:00 PM</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <form class="contact-form reveal" id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="service">Service Interested In</label>
-                        <select id="service" name="service" required>
-                            <option value="">Select a service</option>
-                            <option>Custom Furniture</option>
-                            <option>Doors & Windows</option>
-                            <option>Kitchen & Built-ins</option>
-                            <option>Commercial Fit-Outs</option>
-                            <option>Restoration & Repair</option>
-                            <option>Wood Finishing</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Project Details</label>
-                        <textarea id="message" name="message" placeholder="Tell us about your project..." required></textarea>
-                    </div>
-                    <button type="submit">Send Message →</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
     <!-- FOOTER -->
     <footer>
         <div class="container">
             <a href="#home" class="logo">Roka<span style="color: var(--accent);">Furniture</span></a>
             <p>&copy; 2026 Roka Office and Household Furniture Manufacturing. Handcrafted with pride in Addis Ababa, Ethiopia.</p>
+            <p style="margin-top: 8px;">📞 <a href="tel:+251911221554" style="color: var(--accent); text-decoration: none;">+251 911 221 554</a></p>
         </div>
     </footer>
 
@@ -1245,13 +1025,6 @@
         }, { threshold: 0.1 });
 
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-        // Form submission (demo)
-        document.getElementById('contactForm').addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Thank you! Your message has been received. We will contact you within 24 hours.');
-            e.target.reset();
-        });
     </script>
 </body>
 </html>
